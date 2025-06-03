@@ -1,0 +1,37 @@
+<!--შექმენით სარეგისტრაციო ფორმა. მომხმარებელს შემოატანინეთ სახელი, ემაილი, პაროლი და მისი საცხოვრებელი ქვეყანა
+(დაგჭირდებათ drop down menu). მომხმარებელს უნდა ჰქონდეს მინიმუმ 5 ქვეყნის არჩევის უფლება. მათ შორის უნდა იყოს საქართველო. 
+გამოიყენეთ selected ატრიბუტი და საქართველო გახადეთ წინასწარ არჩეული.
+თითოეულ option თეგს გაუწერეთ თავისი value ატრიბუტი, სადაც ჩაწერთ ქვეყნის შემოკლებულ სახელს
+მაგალითად: Georgia -> GEO-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">name</label>
+            <br>
+            <input type="text" placeholder="Enter your name: " id="name" name="name" required>
+            <br>
+            <label for="email">Email</label>
+            <br>
+            <input type="email" placeholder="Enter your email: " id="email" name="email" required>
+            <br>
+            <label for="password">password</label>
+            <br>
+            <input type="password" placeholder="Enter your password: " id="password" name="password" required>
+            <br>
+            <label for="country">Where are you from?</label>
+            <select name="country" id="country">
+                <option value="Geo" selected>Georgia</option>
+                <option value="Fra">France</option>
+                <option value="Ita">Italy</option>
+                <option value="Ger">Germany</option>
+                <option value="Spa">Spain</option>
+            </select>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,6 @@
+string=input("Enter a string: ")
+integer=int(input("Enter an integer:"))
+print(int(string)+integer)
+print(int(string)*integer)
+print(int(string)/integer)
+print(int(string)-integer)

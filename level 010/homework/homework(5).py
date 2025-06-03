@@ -1,0 +1,6 @@
+name=input("Enter your name: ")
+surname=input("Enter your surname: ")
+age=input("Enter your age: ")
+height=input("Enter your height: ")
+weight=input("Enter your weight: ")
+print("Hi my name is "+(name+" "+surname)+" "+"i am"+" "+(age)+" "+"years old i am"+" "+(height)+"cm tall and i am"+" "+(weight)+"kg" )
