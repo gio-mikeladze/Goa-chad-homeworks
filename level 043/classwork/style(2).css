@@ -1,0 +1,17 @@
+div h1{
+    color: red;
+    background-color: blue;
+    text-align: center;
+    font-size:  50px;
+}
+div p{
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-size: 20px;
+}
+div button{
+    color: red;
+    background-color: black;
+    font-size: 15px;
+}
