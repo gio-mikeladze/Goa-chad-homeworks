@@ -1,0 +1,17 @@
+#button{
+    color:red;
+    background-color: blue;
+    font-size: 20px;
+}
+#h1{
+    color: green;
+    background-color: black;
+    font-size: 50px;
+    border: 5px solid green;
+}
+.p{
+    color:yellow;
+    background-color: red;
+    border: 5px solid green;
+    font-size: 25px;
+}
