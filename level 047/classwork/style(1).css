@@ -1,0 +1,14 @@
+#my-h1{
+    color:red;
+    background-color: blue;
+    text-align: center;
+    font-size: 50px;
+    border: 5px solid green;
+}
+.par{
+    color: green;
+    background-color: black;
+    text-align: center;
+    font-size: 25px;
+    border:5px solid green;
+}
