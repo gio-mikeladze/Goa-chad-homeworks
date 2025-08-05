@@ -12,3 +12,6 @@ def quarter_of(month):
         return 3
     else:
         return 4
+    
+name="Gio"
+print(name[0])
