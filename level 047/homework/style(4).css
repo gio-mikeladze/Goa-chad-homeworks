@@ -1,0 +1,30 @@
+body{
+    background-color: blue;
+}
+section{
+    background-color: red;
+}
+h1{
+    background-color:yellow;
+    color:green;
+    font-size:40px
+}
+#p-1{
+    color:green;
+    font-size: 20px;
+}
+#p-2{
+    text-decoration: underline dashed green;
+    color:blue
+}
+button{
+    background-color: blue;
+    color: red;
+}
+a{
+    background-color: rgb(100,50,200);
+    text-decoration: line-through dotted green;
+}
+a{
+    color: red; 
+}

@@ -1,0 +1,29 @@
+body{
+    background-color: blue;
+}
+section{
+    background-color: red;
+}
+h1{
+    background-color:yellow;
+    color:green;
+}
+#p-2{
+    text-decoration: underline dashed green;
+}
+button:active{
+    background-color: blue;
+    color: red;
+}
+button:hover{
+    background-color: black;
+    color: green;
+}
+a:link{
+    background-color: rgb(100,50,200);
+    color: #f22463;
+    text-decoration: line-through dotted green;
+}
+a{
+    color: red; 
+}
