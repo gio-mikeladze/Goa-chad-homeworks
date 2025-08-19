@@ -7,3 +7,4 @@ def remove_char(s):
         num+=1
         final+=s[num]
     return final
+print("ANNA".lower())

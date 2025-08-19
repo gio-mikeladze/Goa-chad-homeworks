@@ -1,0 +1,23 @@
+body{
+    background-color: blue;
+}
+section{
+    background-color: rgb(255,0,0);
+}
+#p-1{
+    color:green;
+    font-size: 20px;
+    text-align:center;
+}
+#p-2{
+    color:yellow;
+    font-size: 20px;
+    text-align:center;
+}
+h2{
+    color:orange;
+    font-size:40px;
+}
+h1{
+    color:#ff0000;
+}
