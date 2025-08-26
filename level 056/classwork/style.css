@@ -1,0 +1,12 @@
+#ol-1{
+    list-style: georgian inside none ;
+}
+#ul-1{
+    list-style-position: inside;
+}
+#ol-2{
+    list-style-image:url("./image.webp");
+}
+#ul-2{
+    list-style:disc inside url("./images.jpg")
+}

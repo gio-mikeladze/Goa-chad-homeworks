@@ -1,0 +1,11 @@
+input{
+    color:red;
+    background-color: blue;
+}
+input::placeholder{
+    color:white;
+}
+input[type="password"]{
+    color:green;
+    background-color: black;
+}

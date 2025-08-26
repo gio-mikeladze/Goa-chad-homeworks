@@ -1,0 +1,28 @@
+body{
+    background-color: green;
+}
+form{
+    background-color: white;
+    width:300px;
+    height:400px;
+}
+input{
+    width:200px;
+}
+button{
+    width:200px;
+    background-color: rgb(26, 147, 30);
+    border:none;
+    color:white;
+}
+#message{
+    height:100px;
+}
+p{
+    font-size:8px;
+    color:gray;
+}
+label{
+    color:gray;
+    font-size:20px;
+}

@@ -1,0 +1,13 @@
+label{
+    color:purple;
+}
+button{
+    background-color: purple;
+    color:white;
+    width:200px;
+    border-radius: 5px 5px 5px 5px;
+    border-color: purple;
+}
+input{
+    width:200px;
+}

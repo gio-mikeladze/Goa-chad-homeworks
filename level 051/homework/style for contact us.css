@@ -1,0 +1,13 @@
+body{
+    background-color: blue;
+}
+.h{
+    color:white;
+}
+section{
+    background-color: red;
+}
+a{
+    text-decoration: dotted line-through green;
+    color:yellow;
+}
