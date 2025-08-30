@@ -1,0 +1,30 @@
+input{
+    width:200px;
+    background-color: blue;
+    color:white;
+    border:dashed red;
+    border-radius:5px 5px 5px 5px;
+}
+input::placeholder{
+    color:red;
+}
+label{
+    color:purple;
+    font-size: 20px;
+}
+input:focus{
+    border-radius:5px 5px 5px 5px;
+    border-color:green;
+    color:green;
+    background-color: black;
+}
+input:focus::placeholder{
+    color:white;
+}
+button{
+    color:white;
+    background-color: purple;
+    width:200px;
+    border-color:purple;
+    border-radius:5px 5px 5px 5px;
+}
