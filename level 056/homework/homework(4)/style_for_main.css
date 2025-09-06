@@ -1,0 +1,18 @@
+body{
+    background-color: blue;
+}
+h1{
+    color:white;
+    font-size:50px;
+}
+h2,h3{
+    color:white;
+    font-size:30px;
+}
+section{
+    background-color: red;
+}
+p{
+    font-size: 16px;
+    color:white;
+}
