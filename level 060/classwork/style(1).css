@@ -1,0 +1,15 @@
+div{
+    background-color: red;
+    height:100px;
+    width:100px;
+    border-top: 10px solid green;
+    border-bottom: 5px dotted blue;
+    border-left: 3px dashed yellow;
+    border-right: 15px double white;
+    padding:50px 75px 50px 75px;
+
+}
+p{
+    padding:10px;
+    background-color: blue;
+}

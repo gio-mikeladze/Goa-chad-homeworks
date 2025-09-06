@@ -1,0 +1,12 @@
+.div-2{
+    background-color: red;
+    height:50px;
+    width:50px;
+    margin:0px;
+}
+#div-1{
+    background-color: blue;
+    height:300px;
+    width:300px;
+    display: flex;
+}

@@ -1,0 +1,46 @@
+h1{
+    color:purple;
+    padding-top:25px;
+    padding-left:20px;
+    padding-bottom: 10px;
+}
+label{
+    color:purple;
+    margin-left:20px;
+    font-size:20px
+}
+body{
+    background-color: blue;
+}
+form{
+    background-color: white;
+    height:600px;
+    width:300px;
+}
+input{
+    width:200px;
+    margin-left:20px;
+    background-color: purple;
+    color:white;
+    border-radius: 5px 5px 5px 5px;
+}
+input:focus{
+    border:none;
+    border-radius: 5px 5px 5px 5px;
+}
+button{
+    margin-left:20px;
+    width:200px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: purple;
+    color:white;
+    border:none;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+p{
+    font-size: 15px;
+    color: gray;
+}

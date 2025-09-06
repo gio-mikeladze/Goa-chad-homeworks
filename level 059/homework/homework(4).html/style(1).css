@@ -1,0 +1,11 @@
+div{
+    background-color: blue;
+    height:300px;
+    width:300px;
+}
+p{
+    color:red;
+    padding-left:100px;
+    padding-right:110px;
+    padding-top: 120px;
+}

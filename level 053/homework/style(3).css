@@ -1,0 +1,23 @@
+body{
+    background-color:blue;
+}
+section{
+    background-color: red;
+}
+p{
+    color:white;
+    font-size: 20px;
+    text-decoration: dashed underline green;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 1px blue;
+}
+h1{
+    color:white;
+}
+li{
+    color:white;
+}
+h2{
+    color:white;
+    
+}
