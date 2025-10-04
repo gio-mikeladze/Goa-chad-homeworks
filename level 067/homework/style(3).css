@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+}
+div{
+    height:500px;
+    width:500px;
+    background-color: red;
+    position:relative;
+    left:150px;
+    top:200px;
+}
