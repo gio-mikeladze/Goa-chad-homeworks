@@ -1,0 +1,13 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+div{
+    height:300px;
+    width:300px;
+    position:relative;
+    left:100px;
+    top:100px;
+    background-color: blue;
+}
