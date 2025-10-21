@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(158, 147, 106);
+}
+#main{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+}
+#first{
+    display:flex;
+    flex-direction: row;
+    gap:30px;
+}
+#second{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+}
+#first-1{
+    height:250px;
+    width:350px;
+    background-image: url("./images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#first-1:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/image1.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+h2{
+    font-size: 50px;
+    color:white;
+}
+p{
+    font-size: 23px;
+    color:white;
+    font-weight: 900;
+}
+#first-2{
+    height:250px;
+    width:350px;
+    background-image: url("./images/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#first-2:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/image2.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+#first-3{
+    height:250px;
+    width:350px;
+    background-image: url("./images/image3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#first-3:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/image3.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+#second-1{
+    height:250px;
+    width:350px;
+    background-image: url("./images/tbilisi.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#second-1:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/tbilisi.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+#second-2{
+    height:250px;
+    width:350px;
+    background-image: url("./images/image4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#second-2:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/image4.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+#second-3{
+    height:250px;
+    width:350px;
+    background-image: url("./images/image5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+    transition:0.50s;
+}
+#second-3:hover{
+    height:250px;
+    width:350px;
+    transform: scale(105%);
+    background-image: url("./images/image5.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:20px;
+    border-radius: 15px;
+}
+#h2{
+    width: 150px;
+}
