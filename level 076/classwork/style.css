@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#parent{
+    height:200px;
+    width:300px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid rgb(55, 55, 55);
+}
+#child1{
+    background-color: aqua;
+    border: 1px solid rgb(55, 55, 55);
+}
+.child{
+    border: 1px solid rgb(55, 55, 55);
+}
