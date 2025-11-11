@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parent{
+    height:400px;
+    width:850px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap:7px;
+}
+#child1{
+    background-color: aqua;
+    grid-column-start:1;
+    grid-column-end:3;
+    grid-row-start:1;
+    grid-row-end:4;
+}
+#child2{
+    background-color: rgb(126, 56, 56);
+    grid-row-start:1;
+    grid-row-end:2;
+}
+#child3{
+    background-color: purple;
+}
+#child4{
+    background-color: rgb(0, 179, 255);
+}
+#child5{
+    background-color: rgb(121, 151, 31);
+    grid-column-start:-4;
+    grid-column-end:-1;
+}
+#child6{
+    background-color: red;
+}
+#child7{
+    background-color: rgb(233, 245, 126);
+}
+#child8{
+    background-color: rgb(255, 136, 0);
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start:5;
+}
+#child9{
+    background-color: rgb(155, 155, 155);
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start:6;
+}
+#child10{
+    background-color: white;
+    grid-row-start:2;
+    grid-row-end:4;
+    grid-column-start:7;
+    grid-column-end:9;
+}
+#child11{
+    background-color: white;
+    grid-column-start:3;
+    grid-column-end:5;
+}
+#child12{
+    background-color: rgb(0, 179, 255);
+    grid-column-start:1;
+    grid-column-end:4;
+}
+#child13{
+    background-color: lime;
+}
+#child14{
+    background-color: blueviolet;
+    grid-column-start:5;
+    grid-row-start:4;
+    grid-row-end:6;
+}
+#child15{
+    background-color: rgb(255, 192, 192);
+    grid-column-start:6;
+    grid-column-end:8;
+}
+#child16{
+    background-color: rgb(0, 179, 255);  
+}
+#child17{
+    background-color: rgb(243, 155, 255);
+}
+#child18{
+    background-color: gray;
+    grid-column-start:2;
+    grid-column-end:4;
+}
+#child19{
+    background-color: rgb(0, 179, 255);
+}
+#child20{
+    background-color: rgb(233, 245, 126);
+}
+#child21{
+    background-color:rgb(230, 105, 105);
+}
+#child22{
+    background-color: blue;
+}
