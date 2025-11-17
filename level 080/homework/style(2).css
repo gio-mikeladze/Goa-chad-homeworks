@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#parent{
+    width:600px;
+    height:500px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr ;
+    grid-template-areas: 
+        "header header ads"
+        "nav article article"
+        "nav footer footer"
+    ;
+    gap:5px;
+}
+#child1{
+    grid-area: header;
+}
+#child2{
+    grid-area: ads;
+}
+#child3{
+    grid-area: nav;
+}
+#child4{
+    grid-area: article;
+}
+#child5{
+    grid-area: footer;
+}
+.child{
+    background-color: rgb(148, 205, 50);
+    padding-top: 10px;
+    padding-left: 10px;
+}

@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#parent{
+    gap:10px;
+    height:400px;
+    width:600px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-areas: 
+        "blank Logo"
+        "Sidebar Main"
+        "Sidebar Footer"
+    ;
+}
+#child1{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    background-color: rgb(172, 172, 172);
+    grid-area: Logo;
+    border-radius: 10px;
+    padding-top:30px;
+    padding-left:10px;
+}
+#child2{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: rgb(172, 172, 172);
+    grid-area: Sidebar; 
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child3{
+    background-color: rgb(172, 172, 172);
+    grid-area: Main;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#child4{
+    background-color: rgb(172, 172, 172);
+    grid-area: Footer;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
