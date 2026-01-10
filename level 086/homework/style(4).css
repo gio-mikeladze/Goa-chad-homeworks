@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(136, 102, 17);
+}
+#parent{
+    background-color: goldenrod;
+    height:500px;
+    width:500px;
+    border: 30px solid yellow;
+    border-radius: 50%;
+    animation-name: border;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    cursor:pointer;
+}
+@keyframes border{
+    0%{
+        border-top:none;
+        border-left:none;
+    }
+    25%{
+        border: 50px solid rgb(255, 221, 0);
+    }
+    50%{
+        border:10px solid rgb(202, 179, 3);
+    }
+    75%{
+        border: 50px solid rgb(255, 208, 0);
+    }
+}

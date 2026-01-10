@@ -1,0 +1,99 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    width:1300px;
+    height:600px;
+    background-color:hsl(229, 57%, 11%) ;
+    background-image: url("./images/bg-desktop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div1{
+    height:200px;
+    width:350px;
+    background-color:hsl(228, 56%, 26%) ;
+    border-top-right-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap:30px;
+    padding-left:30px;
+}
+#images{
+    display: flex;
+    gap:30px;
+}
+#images div{
+    height:50px;
+    width:50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(229, 57%, 11%);
+}
+#div2{
+    height:130px;
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    background-color:hsl(228, 56%, 26%) ;
+    color:white;
+    border-radius: 5px;
+    padding-top:30px;
+    padding-left:30px;
+}
+#div2 p{
+    display: flex;
+    gap:5px;
+    color:gray;
+}
+#div2 p b{
+    color:white;
+}
+#main{
+    display: flex;
+    align-items: end;
+    gap:50px;
+}
+#full{
+    margin-left:10px;
+    height:20px;
+    width:430px;
+    background-color: hsl(229, 57%, 11%);
+    border-radius: 20px;
+}
+#slide{
+    border-radius: 20px;
+    height:100%;
+    width:300px;
+    background: HSL(6, 100%, 80%);
+    background: linear-gradient(90deg, rgba(255, 163, 153, 1) 0%, rgba(255, 77, 151, 1) 40%);
+}
+#ball{
+    border-radius: 50%;
+    height:100%;
+    width:20px;
+    margin-left:280px;
+    background-color: white;
+}
+#numbers{
+    display: flex;
+    gap:350px;
+}
+#numbers p{
+    color:white;
+}

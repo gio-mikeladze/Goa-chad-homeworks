@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#div-1{
+    height:500px;
+    width:500px;
+    background-color: red;
+    transition: 0.5s;
+}
+#div-1:hover{
+    transform:translate(100px,-120px)
+}
+#div-2{
+    height:500px;
+    width:500px;
+    background-color: blue;
+    transition: 0.5s;
+}
+#div-2:hover{
+    transform: scale(110%,150%);
+}
+#div-3{
+    height:500px;
+    width:500px;
+    background-color: green;
+    transition: 0.5s;
+}
+#div-3:hover{
+    transform:skew(11deg)
+}
+#div-4{
+    height:500px;
+    width:500px;
+    background-color: yellow;
+    transition: 0.5s;
+}
+#div-4:hover{
+    transform:rotate(45deg)
+}

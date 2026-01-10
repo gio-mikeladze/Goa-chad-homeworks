@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: blue;
+}
+#parent{
+    height:300px;
+    width:300px;
+    border-radius: 50%;
+    background-color: sandybrown;
+    animation-name: right;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    cursor:pointer;
+}
+@keyframes right{
+    from{
+        transform:translateX(0px)
+    }
+    to{
+        transform: translateX(5829px);
+    }
+}

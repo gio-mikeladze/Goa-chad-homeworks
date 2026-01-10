@@ -1,0 +1,157 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    height:600px;
+    width:500px;
+    background-color:hsl(222, 26%, 31%) ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap:20px;
+}
+#div1{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap:60px;
+}
+#div1 h3{
+    font-size:20px;
+    color:white;
+}
+#top{
+    display: flex;
+    align-items: end;
+    gap:10px;
+    color:white;
+    padding-bottom:15px;
+}
+#top-right{
+    display: flex;
+    flex-direction: column;
+}
+#numbers{
+    width:70px;
+    display: flex;
+    justify-content: center;
+    gap:15px;
+    color:white;
+}
+#slide{
+    height:20px;
+    width:70px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 20px;;
+    display: flex;
+    align-items: center;
+    padding-left:5px;
+}
+#ball{
+    height:15px;
+    width:15px;
+    background-color: orangered;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#div2{
+    width:360px;
+    height:70px;
+    background-color: hsl(224, 36%, 15%);
+    color:white;
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    justify-content: end;
+    padding-right:10px;
+}
+#div3 div{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    height:55px;
+    width:80px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+#div3{
+    width:360px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap:13px;
+    grid-template-areas: 
+    "s e n del "
+    "f fi si plus "
+    "o t th minus "
+    "dot z slash times "
+    "Reset Reset equal equal "
+    ;
+}
+#class1{
+    grid-area:s;
+}
+#class2{
+    grid-area:e;
+}
+#class3{
+    grid-area:n;
+}
+#class4{
+    grid-area:del;
+}
+#class5{
+    grid-area:f;
+}
+#class6{
+    grid-area:fi;
+}
+#class7{
+    grid-area:si;
+}
+#class8{
+    grid-area:plus;
+}
+#class9{
+    grid-area:o;
+}
+#class10{
+    grid-area:t;
+}
+#class11{
+    grid-area:th;
+}
+#class12{
+    grid-area:minus;
+}
+#class13{
+    grid-area:dot;
+}
+#class14{
+    grid-area:z;
+}
+#class15{
+    grid-area:slash;
+}
+#class16{
+    grid-area:times;
+}
+#class17{
+    grid-area:Reset;
+}
+#class18{
+    grid-area:equal;
+}
