@@ -1,0 +1,155 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:115vh;
+    display: flex;
+    align-items: center;
+    gap:50px;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(45, 45, 45);
+}
+header{
+    height:100px;
+    width:100vw;
+    background-color: black;
+    position:fixed;
+    top:0;
+}
+nav{
+    height:100px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    position:fixed;
+    top:0;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    transition:0.7s;
+    font-size: 19px;
+}
+nav a:hover{
+    transform:scale(115%)
+}
+nav button{
+    height:35px;
+    width:80px;
+    transition:0.7s;
+    background: #00000F;
+    background: linear-gradient(140deg, rgba(0, 0, 15, 1) 0%, rgba(255, 255, 255, 1) 53%, rgba(0, 0, 15, 1) 100%);
+}
+nav button a {
+    color:black;
+    font-size:15px;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+nav button:hover{
+    transform:scale(115%)
+}
+footer{
+    width:100%;
+    height:300px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    color:white;
+}
+#visit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+#sites{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#sites i{
+    font-size: 30px;
+    color:white;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+input{
+    height:300px;
+    width:400px;
+    border:none;
+    border-radius: 10px;
+}
+form{
+    margin-top:130px;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+input{
+    text-align: center;
+    text-size-adjust:300px;
+}
+label{
+    color:white;
+    font-size:25px;
+}
+@media(max-width:760px){
+    body{
+        height:150vh;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        height:600px;
+    }
+}
+@media(max-width:520px){
+    body{
+        height:150vh;
+    }
+    header{
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        padding-top:100px;
+    }
+    nav{
+        height:200px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    form{
+        margin-top:300px;
+    }
+    footer{
+        height:600px;
+    }
+}
+@media (max-width:420px){
+    input{
+        width:300px;
+    }
+}
+@media (max-width:320px){
+    form{
+        margin-top:500px;
+    }
+}

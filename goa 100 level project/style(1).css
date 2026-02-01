@@ -1,0 +1,245 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    height:155vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(4, 62, 4);
+}
+header{
+    height:100px;
+    width:100vw;
+    background-color: black;
+    position:fixed;
+    top:0;
+}
+nav{
+    height:100px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:50px;
+    position:fixed;
+    top:0;
+}
+nav a{
+    color:white;
+    text-decoration: none;
+    transition:0.7s;
+    font-size: 19px;
+}
+nav a:hover{
+    transform:scale(115%)
+}
+nav button{
+    height:35px;
+    width:80px;
+    transition:0.7s;
+    background: #00000F;
+    background: linear-gradient(140deg, rgba(0, 0, 15, 1) 0%, rgba(255, 255, 255, 1) 53%, rgba(0, 0, 15, 1) 100%);
+}
+nav button a {
+    color:black;
+    font-size:15px;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+nav button:hover{
+    transform:scale(115%)
+}
+main{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    color:rgb(211, 210, 210);
+}
+div h2{
+    width:500px;
+    font-size:20px;
+}
+#david{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+#david h3{
+    width:300px;
+}
+#photos{
+    display: flex;
+    flex-direction: row;
+    gap:200px;
+}
+#kvara{
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+}
+#kvara h3{
+    width:300px;
+}
+h1{
+    font-size: 30px;
+}
+#courses h3{
+    width:400px;
+    color:whitesmoke;
+}
+#courses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+#courses button{
+    height:45px;
+    width:200px;
+    background-color: black;
+}
+#courses a{
+    text-decoration: none;
+    color:white;
+    display: inline-block;
+    width:100%;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#courses button{
+    transition:0.7s;
+    box-shadow: green 10px 10px 10px;
+}
+#courses button:hover{
+    transform:scale(115%);
+}
+footer{
+    width:100%;
+    height:300px;
+    background-color: black;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#sites {
+    font-size: 30px;
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+}
+#information{
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+@media (max-width:1240px){
+    body{
+        height:250vh;
+    }
+    #photos{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (max-width:692px){
+    h1{
+        font-size:30px;
+        width:300px;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+        height:600px;
+    }
+    footer img{
+        height:100px;
+        width:100px;
+    }
+    footer i{
+        font-size: 15px;
+    }
+}
+@media (max-width:540px){
+    body{
+        height:300vh;
+    }
+    header{
+        height:180px;
+    }
+    nav{
+        height:180px;
+        display: flex;
+        flex-direction: column;
+        gap:10px;
+    }
+    #photos img{
+        height:100px;
+        width:100px;
+    }
+    #photos{
+        gap:15px;
+    }
+    #david{
+        display: flex;
+        flex-direction: column;
+    }
+    #kvara{
+        display: flex;
+        flex-direction: column;
+    }
+    #introduce h2{
+        width:250px;
+    }
+    #introduce{
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+}
+@media (max-width:407px){
+    body{
+        height:380vh;
+    }
+    h1{
+        width:170px;
+    }
+    #introduce h2{
+        width:170px;
+        
+    }
+    #courses h3{
+        width:150px;
+    }
+    #kvara h3{
+        width:150px;
+    }
+    #david h3{
+        width:150px;
+    }
+}
+@media (max-width:321px){
+    body{
+        height:600vh;
+    }
+}
